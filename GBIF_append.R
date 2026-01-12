@@ -71,4 +71,4 @@ if (opt$globi == T) {
     out_df<-cbind(out_df,gbif_result)
   }
 
-
+write.csv(out_df, opt$out, row.names = FALSE)
